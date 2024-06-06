@@ -150,10 +150,10 @@
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 350px) {
     .booking{
         width: 100%;
-        min-height: 50vh;
+        min-height: 100%;
         padding: 2% 3% 2% 5%;
         margin-top: 45em;
         display: flex;

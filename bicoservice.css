@@ -63,9 +63,9 @@
 	}
 }
 
-@media (max-width: 400px){
+@media (max-width: 350px){
 	.service-container{
-		margin-top: -20em;
+		margin-top: -25em;
 		/* margin-bottom: 2em; */
 		height: 100%;
 		width: 100%;
