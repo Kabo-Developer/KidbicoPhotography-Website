@@ -58,7 +58,7 @@ h2{
     margin-bottom: 15em;
 }
 
-@media (max-width: 350px){
+@media (max-width: 400px){
     .main-container {
         text-align: center;
         align-items: center;
