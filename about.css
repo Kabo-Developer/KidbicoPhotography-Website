@@ -180,13 +180,18 @@ nav ul li a {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
+
+    .logo{
+        display: none;
+    }
+
     .intro-content h1 {
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .intro-content p {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .intro-content .btn {

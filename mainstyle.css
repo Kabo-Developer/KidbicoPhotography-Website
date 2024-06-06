@@ -36,12 +36,14 @@ body {
     border-radius: 30px 30px;
     margin-bottom: 15px;
 }
+
 h2{
    text-align: center;
    position: relative;
    letter-spacing: 5px;
    margin: 35px 5px;
 }
+
 .divider {
 	position: relative;
     border: 8em;
@@ -56,7 +58,7 @@ h2{
     margin-bottom: 15em;
 }
 
-@media (max-width: 600px){
+@media (max-width: 400px){
     .main-container {
         text-align: center;
         align-items: center;
@@ -68,17 +70,18 @@ h2{
     }
 	
 	.divider {
-	position: absolute;
-    border: 8em;
-    height: 1px;
-    width: 15em;
-    color: gold;
-    font-size: 5px;
-    text-align: center;
-    margin-left: 150px;
-    border: .2px solid;
-    margin-top: -5em;
-    margin-bottom: -5em;
+	    position: absolute;
+        border: 8em;
+        height: 1px;
+        width: 15em;
+        color: gold;
+        font-size: 5px;
+        text-align: center;
+        margin-left: 150px;
+        border: .2px solid;
+        margin-top: -5em;
+        margin-bottom: -5em;
+        display: none;
 	}
 	
 	h2{
@@ -88,4 +91,5 @@ h2{
 		margin: 35px 50px;
 	}
 }
+
 
