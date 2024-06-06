@@ -150,7 +150,7 @@
     }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
     .booking{
         width: 100%;
         min-height: 100%;
