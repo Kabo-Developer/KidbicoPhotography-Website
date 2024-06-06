@@ -333,3 +333,25 @@ span {
         font-size: 1.2em;
     }
 }
+
+@media (max-width: 600px){
+    .bico-box {
+        padding: 15px;
+    }
+
+    .intro-title .bico-title {
+        font-size: 2.5em;
+    }
+
+    .bico-role .semi-title {
+        font-size: 10em;
+    }
+
+    .bico-link {
+        padding: 8px 15px;
+    }
+
+    .social-icon {
+        font-size: 2.5em;
+    }
+}
