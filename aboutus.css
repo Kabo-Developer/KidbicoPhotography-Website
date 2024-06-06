@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
 
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -64,7 +63,7 @@
 
 @media (max-width: 600px){
 	.about-containter{
-		height: 130vh;
+		height: 100;
 		width: 100%;
 	}
 	
@@ -81,15 +80,26 @@
 
 @media (max-width: 400px){
 
-	.service-card{
-		margin-top: 100%;
-	}
-
 	.about-containter{
-		height: 100vh;
+		margin-top: -20em;
+		height: 100%;
 		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 	
+	.about-card{
+		height: 100%;
+		width: 100%;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		display: inline;
+	}
+
 	.about-card h3{
 		text-align: center;
 		margin-left: 10%;
@@ -97,6 +107,6 @@
 	}
 	
 	.text{
-		font-size: 20px;
+		font-size: 15px;
 	}
 }

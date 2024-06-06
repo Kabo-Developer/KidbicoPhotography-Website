@@ -9,9 +9,6 @@
     width: 100%;
     min-height: 100vh;
 	margin-bottom: 3%;
-    /*background-image: url('BackgroundImg/dice.jpg');
-    background-color: black;
-    background-size: cover;*/
     padding: 10px 20px;
     overflow: hidden;
     position: relative;
@@ -189,7 +186,7 @@ nav ul li a {
     nav ul li {
         display: inline;
         list-style: none;
-        margin: 10px 15px;
+        margin: 15px 10px;
     }
     
         nav ul li a {
@@ -208,14 +205,12 @@ nav ul li a {
         font-size: 20px;
     }
 
-    .intro-content .btn {
-        padding: 10px 40px;
-        font-size: 12px;
-    }
-
-    .feature-img {
+    .hero {
         width: 100%;
-        right: 0;
-        bottom: 0;
+        min-height: 65vh;
+        margin-bottom: -3%;
+        padding: 10px 5px;
+        overflow: hidden;
+        position: relative;
     }
 }
