@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.35s linear;
+}
+
+.terms-containter{
+	margin-top: -35em;
+	/*margin-bottom: 2em;*/
+	height: 180vh;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.terms-card{
+	height: 100%;
+	width: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.terms-card h2{
+	text-transform: capitalize;
+	text-align: center;
+	position: relative;
+	letter-spacing: 5px;
+	margin: 35px 5px;
+}
+
+.containter-terms h3{
+	text-align: center;
+	position: relative;
+	letter-spacing: 5px;
+	margin: 35px 5px;
+	color: gray;
+	font-size: 20px;
+}
+
+/*.line-divider{
+	
+}*/
+
+
+.terms-list{
+	color: #ffffff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+	font-size: 18px;
+	/*display: flex;
+	flex-wrap: wrap;*/
+	line-height: 150%;
+}
+
+.terms-list li{
+	list-style-type: upper-roman;
+	font-style: italic;
+}
+
+@media (max-width: 600px){
+	.terms-containter{
+		height: 260vh;
+		width: 100%;
+	}
+	
+	.containter-terms h3{
+		text-align: center;
+		margin-left: 10%;
+		font-size: 18px;
+	}
+	
+	.terms-list{
+		font-size: 15px;
+	}
+}
