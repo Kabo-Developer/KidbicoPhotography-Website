@@ -1,0 +1,229 @@
+/* ===================== Navbar======================== */
+
+nav {
+    height: 10vh;
+    width: 100%;
+    background: #071313;
+    position: relative;
+    
+}
+
+.nav-links {
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+    .nav-links a:hover {
+        color: gold;
+        border-bottom: 1px solid;
+    }
+
+.separator {
+    height: 1px;
+    background: gold;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 55px;
+}
+/* ============== SERVICES AND PRICES ==============*/
+
+.services {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-wrapper {
+    width: 90%;
+    color: white;
+    margin: 50px;
+    /* auto; */
+}
+
+.prices-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 5px solid #333;
+    padding: 10px;
+}
+
+.text-col-wrapper {
+    width: 100%;
+    width: 100%;
+    /* min-width: 500px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin: 2.5% 0; */
+}
+
+.col-3 {
+    width: 30%;
+    /* min-width: 300px; */
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 55%;
+}
+
+.service-line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.services-note {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 2.5%;
+}
+
+.services-small-note {
+    color: grey;
+    font-size: 0.8rem;
+}
+
+/* =====================FOOOTER, TIMES AND MAP============== */
+footer {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-details {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+/**/
+.footer-col-3 {
+    display: flex;
+    color: #fafafa;
+    flex-direction: column;
+    width: 30%;
+    min-width: 260px;
+    margin: 3% 1%;
+}
+
+.footer-titles {
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 10px 10px 20px 10px;
+    text-transform: uppercase;
+}
+
+.footer-line {
+    width: 100%;
+    text-align: center;
+    margin: 2%;
+}
+
+    .footer-line:hover {
+        font-weight: 700;
+    }
+
+.line-right-side {
+    padding-left: 2%;
+}
+/**/
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 70%;
+    min-height: 60vh;
+    opacity: 0.5;
+}
+
+    iframe:hover {
+        width: 100%;
+        height: 70%;
+        opacity: 0.9;
+    }
+
+.footer-bottom {
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    color: #fafafa;
+    padding: 15px 5px;
+    background: #1e272794;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 400px){
+    .services {
+        padding: 35px 0;
+    }
+    .service-wrapper {
+        margin: 10px;
+    }
+    .prices-container {
+        border: 3px solid #333;
+        padding: 15px;
+    }
+
+    .text-col-wrapper {
+        flex-direction: column;
+    }
+
+    .col-3 {
+        flex: none;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .services-note, .services-small-note {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .service-line {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 0;
+    }
+
+    .service-line h4, .service-line p {
+        margin: 0;
+    }
+
+    .map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    iframe {
+        width: 100%;
+        height: 30%;
+        min-height: 50vh;
+        opacity: 0.5;
+    }
+}
